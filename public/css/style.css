@@ -1,0 +1,122 @@
+body {
+	padding-top: 41px;
+}
+.navbar-inverse .nav li:hover {
+	background-color: #333333;
+}
+table {
+	width: 100%;
+}
+.chat-content {
+	vertical-align: top;
+	overflow-y: auto;
+}
+.people-list {
+	vertical-align: top;
+	width: 230px;
+}
+.inner-overflow-div {
+	border: 1px solid #BBBBBB;
+	overflow-y: auto;
+	overflow-x: auto;
+	height:100px;
+}
+.inner-overflow-div table {
+	margin-bottom: 0px;
+}
+.footer-input {
+	height: 96px;
+	padding: 10px;
+}
+.footer {
+	border-top: 1px solid #555555;
+	width:100%;
+}
+.nameplate {
+	height: 31px;
+}
+.editorplus {
+	display: inline-block;
+	vertical-align: bottom;
+}
+.send-btn {
+	display: inline-block;
+	vertical-align: bottom;
+}
+.modal-title {
+	font-family: '黑体';
+}
+#loginModal {
+	margin-left: -225px;
+	width: 454px;
+}
+
+#loginModal .form-horizontal .control-label {
+	width: 74px;
+}
+
+#loginModal .form-horizontal .controls {
+	margin-left: 109px;
+}
+#loginModal .name-group {
+	margin-top: 20px;
+}
+#userName {
+	margin-right: 10px;
+}
+.table th, .table td {
+	border-bottom: 1px solid #DDDDDD;
+}
+p {
+	margin: 0
+}
+.thumbnails .active {
+	border-color: #0088CC;
+	box-shadow: 0 1px 4px rgba(0, 105, 214, 0.25);
+}
+.modal-backdrop {
+	background: url('../img/back.jpg');
+	filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='scale')";
+	-moz-background-size: 100% 100%;
+	background-size: 100% 100%;
+}
+
+.modal-backdrop, .modal-backdrop.fade.in {
+	opacity: 1;
+}
+#loginModal .modal-body {
+	background: -moz-linear-gradient(center top , #FFFFFF 0px, #DDDDDD 100%) repeat scroll 0 0 transparent;
+}
+#loginModal .modal-footer {
+	box-shadow: 0 1px 0 #AAAAAA inset;
+	background: linear-gradient(center top ,#DDDDDD  0px, #FFFFFF 100%) repeat scroll 0 0 transparent;
+	background: -webkit-linear-gradient(center top ,#DDDDDD  0px, #FFFFFF 100%) repeat scroll 0 0 transparent;
+	background: -moz-linear-gradient(center top ,#DDDDDD  0px, #FFFFFF 100%) repeat scroll 0 0 transparent;
+}
+.navbar-inverse .brand, .navbar-inverse .nav > li > a {
+  color: #DDD;
+}
+.navbar .brand {
+font-family: "Helvetica Neue",Helvetica,Arial,Verdana,sans-serif;
+  font-size: 1.8em;
+  font-weight: bold;
+}
+.user-list-link{
+	display:block;
+}
+.user-list-link:hover{
+	text-decoration:none
+}
+
+#upper-container{
+	margin-bottom:7px;
+	height:100px;
+	width:100%;
+}
+.chat-content-tab{
+	overflow-x:hidden;
+}
+.content-table{
+	border:1px solid #BBBBBB
+}
+
